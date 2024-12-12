@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Calculadora Lasaña.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Lasaña</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Calculadora</h1>
+        <form id="FormularioLasaña">
+            <label for="capas">Numero de capas:</label>
+            <input type="number" id="layers" name="layers" min="0" required>
+            <label for="TiempoEnHorno">Minutos en el horno:</label>
+            <input type="number" id="TiempoEnHorno" name="TiempoEnHorno" min="0" required>
+        </form>
+        <div id="resultados">
+            <p id="TiempoRestante"></p>
+            <p id="TiempoPreparacion"></p>
+            <p id="TiempoTotal"></p>
+        </div>
+    </div>
+    <script src="Calculadora Lasaña.js"></script>
+</body>
+</html>

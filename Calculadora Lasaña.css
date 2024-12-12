@@ -1,0 +1,38 @@
+body{
+    color: rgb(22, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    background-color: azure;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin: 1px 0 5px;
+}
+
+input{
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#resultados{
+    margin-top: 20px;
+}
+
